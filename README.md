@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Kanban Board Task Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![SS-KANBAN](https://github.com/vedurmaliya/Kanban-Board-Frontend/assets/141067169/cfa6139b-2dad-4a93-b35e-6e6f6dca7efa)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This project is a fully functional Kanban board application designed to help users manage their tasks effectively. Inspired by platforms like Trello, it provides an intuitive interface for creating, editing, and organizing tasks into different status groups: To Do, Doing, and Done. Users can easily track the progress of their tasks and update their status using a drag-and-drop interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Front-end
 
-### `npm test`
+1. **Homepage**: Displays all tasks, segregated by their status groups: To Do, Doing, Done.
+2. **Task Card**: Showcases the task title and description.
+3. **Add Task**: Integration of a form to create a new task, prompting users for the title and description of the task.
+4. **Edit Task**: Provides an option to edit an existing task's title and description.
+5. **Delete Task**: Implements a feature to remove a task permanently.
+6. **Task Status**: Empowers users to effortlessly drag and drop tasks between the To Do, Doing, and Done categories.
+7. **Responsive Design**: Ensures the application is fully functional and visually coherent on mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Back-end
 
-### `npm run build`
+1. Created an API with endpoints to support CRUD operations for tasks.
+2. Tasks are stored in a database.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can view and test the live application [here](https://kanban-board-frontend-beige.vercel.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Frontend**:
+  - HTML
+  - CSS
+  - JavaScipt
+  - ReactJs
+    
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Backend**:
+  - NodeJs
+  - ExpressJs
+  
+    
+  
+- **Database**:
+  - MongoDb Atlas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation and Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone this repository to your local machine.
+2. Set up the backend according to the instructions in the `backend/README.md` file.
+3. Set up the frontend according to the instructions in the `frontend/README.md` file.
+4. Start the application and access it through your web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Project developed by Ved Urmaliya.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+If you have any questions or need further information, please contact Ved Urmaliya at vedurmaliya1981@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
